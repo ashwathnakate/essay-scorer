@@ -14,7 +14,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 # Load the trained model
-model = tf.keras.models.load_model('D:/Working_proj/essay-streamlit-master/main/model/model.h5')
+model = tf.keras.models.load_model('model/model.h5')
 
 # Text cleaning function
 def clean_text(text):
