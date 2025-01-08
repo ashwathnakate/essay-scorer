@@ -1,5 +1,4 @@
 regex  
-time  
 numpy 
 pandas  
 nltk  
