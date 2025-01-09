@@ -1,10 +1,10 @@
 regex
 numpy
 pandas
-nltk==3.9.1
-tensorflow==2.17.0
+nltk
+tensorflow
 streamlit
 matplotlib  
 wordcloud
-scikit-learn==1.2.2
+scikit-learn
 joblib
