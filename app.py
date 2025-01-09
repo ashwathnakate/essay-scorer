@@ -6,6 +6,7 @@ import pandas as pd
 import tensorflow as tf
 import streamlit as st
 import matplotlib.pyplot as plt
+import joblib
 
 from wordcloud import WordCloud
 from nltk.tokenize import word_tokenize
@@ -14,7 +15,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 # Load the trained model
-model = tf.keras.models.load_model('model/saved_model.keras')
+model = joblib.load('model/new_model.joblib')
 
 # Text cleaning function
 def clean_text(text):
